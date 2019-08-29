@@ -2084,7 +2084,8 @@ header .button.scroll_down:hover{
 
 .video-js .vjs-tech {
     position: relative;
-    height: auto;
+    /* height: auto; */
+    height: 700px;
     width: 1280px;
     max-width: 100%;
     max-height: calc(100vh - 72px)
@@ -2208,7 +2209,8 @@ header .button.scroll_down:hover{
 }
 
 .video_scene video {
-    object-fit: contain
+    /* object-fit: contain */
+    object-fit: cover;
 }
 
 .video__play {
